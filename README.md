@@ -3,35 +3,17 @@
 #### 介绍
 编写chrome extention，包含了popup窗口、注入js、background、webRequest、bookmark、鼠标右键、notification、background与content script通信相关的示例代码。
 
-#### 软件架构
-软件架构说明
+### 运行方式
+下载项目，打开Chrome浏览器->更多工具->扩展程序->开启开发者模式->加载已解压的扩展程序，选择下载的目录即可。
 
+# 效果如下图（以百度搜索页为例）
+## 1. 在当前页面添加按钮
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0702/150704_82358989_1770544.png "添加新增书签按钮.png")
 
-#### 安装教程
+## 2. 添加鼠标右键菜单
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0702/150803_cb2ec99d_1770544.png "右键新增菜单.png")
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 3. 新建书签 
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0702/150847_5419512f_1770544.png "新建成功返回信息.png")
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0702/150911_dbb4b796_1770544.png "已添加成功.png")
